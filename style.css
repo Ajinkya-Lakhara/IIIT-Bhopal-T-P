@@ -1,0 +1,913 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.Placement_procedure_and_policies {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 15% 25px 15%;
+  position: relative;
+  /* height: 100vh; */
+  /* width: 100%; */
+}
+
+.heading {
+  font-size: 3rem;
+  font-family: Poppins;
+  font-weight: bolder;
+  color: rgb(91, 83, 83);
+}
+
+
+.Placement_procedure_and_policies .placment_procedure_content .points{
+  margin-top: 6% ;
+}
+.content_item {
+  padding: 1vw 0;
+  font-size: 1rem;
+  font-family: inherit;
+  color: rgb(91, 83, 83);
+}
+
+.policy_download {
+  padding: 2.5rem 0 0 0;
+}
+
+.statement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.5vw 0;
+  align-self: flex-start;
+  color: rgb(91, 83, 83);
+  width: 100%;
+}
+
+.sentence {
+  border: 1.5px solid rgba(91, 83, 83, 0.352);
+  border-radius: 50px;
+  padding: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.colon {
+  margin: 0 8px;
+}
+
+.statement button {
+  border: 1.5px solid rgba(91, 83, 83, 0.749);
+  border-radius: 50px;
+  padding: 4px;
+  font-size: 1rem;
+  background-color: #e7e7e8;
+}
+
+.statement .format {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1px;
+  border: 1.5px solid rgba(91, 83, 83, 0.749);
+  border-radius: 50px;
+  /* padding: 4px; */
+  /*background-color: #e7e7e8; */
+}
+
+.statement .format button {
+  padding: 2px;
+  margin: 4px;
+  font-size: 100%;
+  background-color: #e7e7e8;
+  border: 1.5px solid rgba(91, 83, 83, 0.749);
+  border-radius: 50px;
+}
+
+
+/* How To Reach IIIT Bhopal? */
+ .Reach{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.Reach .heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:25px 15%;
+}
+
+
+
+.Reach .content {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /*margin:4rem;*/
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content:center;
+  gap: 15vw ;
+}
+
+
+.Reach .content  .connectivity{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+
+.Reach .content  .connectivity .sub-heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Reach .content  .connectivity .item{
+  margin: 1vw ;
+  margin-right: 0;
+  border: 2px solid black;
+  border-radius: 55px ;
+  padding: 5px;
+  background-color: #E7E7E8;
+  align-self: flex-start;
+  width: 95%;
+}
+
+
+.Reach .content  .connectivity .item .item-content{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.Reach .content  .connectivity .item .item-content .location{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.Reach .content  .map{
+  border: 3px solid black;
+  border-radius: 20px;
+  height: 28rem;
+  width:28rem;
+  background-color: #E7E7E8;
+  margin: 1vw  ;
+  margin-left: 0;
+  overflow: hidden;
+}
+
+.Reach .content  .map img{
+  height:100%;
+  width:100%;
+}
+
+
+
+
+/* Contact Us section */
+.Contact_us {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: black;
+  color: #ffffff;
+  align-items: center;
+  height: 50%;
+  /* width: 100vw; */
+  /* margin: 25% 25%; */
+  /* position: relative; */
+}
+
+.Contact_us .heading {
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  color: #fff;
+  font-family: Poppins;
+  margin: 25px 0;
+  /* font-size: 3rem; */
+}
+
+.contact_content {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.contact_details {
+  /* margin-left: 8rem; */
+  font-size: 1rem;
+  /* width: 30vw; */
+}
+
+.contact-items {
+  margin: 25px 0;
+}
+
+#vertical_line {
+  width: 2px;
+  height: 20rem;
+  background-color: #fff;
+  margin: 2rem 8vw ;
+}
+
+.Contact_us .contact_content .contact_form {
+  display: flex;
+  /* flex-wrap:wrap; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  /* margin: 0 4rem; */
+}
+
+.contact_form .input-box {
+  display: flex;
+  width: 100%;
+  /*align-content: flex-start;*/
+  /*flex-wrap: wrap;*/
+}
+
+.contact_form .input-box .input-field {
+  width: 50%;
+  height: 3rem;
+  margin: 0.2rem ;
+}
+
+.contact_form .input-box .input-field input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(253, 253, 25);
+  border-radius: 6px;
+ 
+  padding: 0 0 0 .5rem;
+}
+
+/* .input-field { 
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  margin: 4px;
+  padding: 10px 0 0 20px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+ } */
+
+.contact_form .input-box .input-box-message {
+  display: flex;
+  width: 100%;
+  height: 10rem;
+  border: 3px solid rgb(253, 253, 25);
+  border-radius: 10px;
+  margin: 0.2rem 0;
+}
+
+.contact_form .input-box .input-box-message input {
+  width: 100%;
+  /* height: 100%; */
+  border-radius: 6px;
+  padding-left: 1rem;
+}
+
+.contact_form button {
+  /* justify-content: center; */
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 15px;
+  border: 3px solid rgb(253, 253, 25);
+  border-radius: 10px;
+  margin: 0.8rem 0;
+}
+
+/* .horizontal-line-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+.horizontal-line-2 {
+  width: 95%;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+
+.Contact_us .copyright {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+/* ---Media Queries--- */
+
+
+@media only screen and (max-width: 1215px){
+  .Placement_procedure_and_policies .heading{
+    font-size: 2.7rem;
+  }
+}
+
+@media only screen and (max-width: 1193px) {
+  .Contact_us .contact_content .contact_form{
+    margin-right:1vw;
+  }
+  /* .contact_content{
+    flex-direction: column-reverse;
+  } */
+  /* #vertical_line{
+    margin: 2rem 4vw ;
+  } */
+  .contact_details{
+    margin:0 0 0 1vw;
+  }
+  /* .contact_details .contact-items{
+
+  } */
+}
+
+
+
+
+
+@media (max-width: 1139px){
+  .contact_details .contact-items{
+    font-size: 0.9rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 2.5rem;
+  }
+  .contact_form .input-box .input-box-message{
+    height: 8rem;
+  }
+  #vertical_line {
+    height: 18rem;
+  }
+}
+
+
+@media (max-width: 1120px){
+  
+}
+
+@media (max-width: 1095px){
+  .Placement_procedure_and_policies .heading{
+    font-size:2.5rem;
+  }
+
+
+  .Reach .content{
+    gap:5vw;
+  }
+  .Reach .content .connectivity{
+    transform: scale(0.9);
+  }
+  .Reach .content .map{
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 1016px){
+  .Placement_procedure_and_policies .heading{
+    font-size:2.3rem;
+  }
+  .Reach .content .connectivity{
+    transform: scale(0.8);
+  }
+  .Reach .content .map{
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 1000px){
+  .Placement_procedure_and_policies .heading{
+    font-size:2.2rem;
+  }
+  .contact_details .contact-items{
+    font-size: 0.8rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    transform: scale(0.9);
+    width:40vw
+  }
+  #vertical_line{
+    height: 16rem;
+  }
+  .Contact_us .copyright{
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 950px){
+  .Reach .content .connectivity{
+    transform: scale(0.7);
+  }
+  .Reach .content .map{
+    transform: scale(0.7);
+  }
+  .contact_details{
+    margin:0 0 0 2.5vw;
+  }
+}
+
+@media (max-width: 879px){
+  .Placement_procedure_and_policies .heading{
+    font-size:2.1rem;
+  }
+  .Reach .heading{
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .sentence {
+    font-size: 0.9rem;
+  }
+  .statement button {
+    font-size: 0.9rem;
+  }
+  .statement .format button {
+    font-size: 0.9rem;
+  }
+  .content_item{
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 860px){
+  .Reach .content{
+    gap:0vw;
+  }
+  .Reach .content .connectivity{
+    transform: scale(0.6);
+  }
+  .Reach .content .map{
+    transform: scale(0.5);
+  }
+}
+
+@media (max-width: 840px){
+  .Placement_procedure_and_policies .heading{
+    font-size:2rem;
+  }
+  .Contact_us .copyright{
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (max-width: 816px){
+  .Placement_procedure_and_policies .heading{
+    font-size:1.9rem;
+  }
+  .Contact_us .heading{
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 802px){
+  .contact_details .contact-items{
+    font-size: 0.7rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 2rem;
+  }
+  .contact_form .input-box .input-box-message{
+    height: 6rem;
+  }
+  #vertical_line {
+    height: 14rem;
+  }
+}
+@media (max-width: 800px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1.7rem;
+  }
+  .content_item{
+    font-size: 0.8rem;
+  }
+}
+
+
+@media(max-width:788px){
+  .Reach .heading{
+    font-size: 2.5rem;
+  }
+}
+
+
+@media(max-width:786px) {
+    .sentence {
+    font-size: 0.8rem;
+  }
+  .statement button {
+    font-size: 0.8rem;
+  }
+  .statement .format button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:768px) {
+  .Reach .content{
+    flex-direction:column;
+  }
+  .Reach .content .connectivity{
+    transform: scale(0.9);
+  }
+  .Reach .content .map{
+    transform: scale(0.9);
+  }
+  .Reach .content  .connectivity .item{
+    margin:0 10px;
+  }
+  .Reach .content  .map{
+    margin:0 10px;
+  }
+  .contact_content{
+    flex-direction: column-reverse;
+  }
+  #vertical_line{
+    display: none;
+  }
+  .contact_details .contact-items{
+    font-size: 1rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    width:28rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 3rem;
+   
+  }
+  .contact_form .input-box .input-box-message{
+    height: 10rem;
+    
+  }
+  
+}
+
+@media(max-width:729px){
+  .Reach .heading{
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 703px) {
+  .sentence {
+    font-size: 0.7rem;
+  }
+  .statement button {
+    font-size: 0.7rem;
+  }
+  .statement .format button {
+    font-size: 0.7rem;
+  }  
+}
+
+@media (max-width: 679px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1.6rem;
+  }
+  .Reach .content .map{
+    height: 20rem;
+  
+  }
+  .Contact_us .copyright{
+    font-size: 0.7rem;
+  }
+}
+
+@media(max-width:671px){
+  .Reach .heading{
+    font-size: 2rem;
+  }
+  .Contact_us .heading{
+    font-size: 2.5rem;
+  }
+}
+
+
+
+@media (max-width: 639px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1.5rem;
+  }  
+}
+
+@media (max-width: 623px) {
+  .sentence {
+    font-size: 0.6rem;
+  }
+  .statement button {
+    font-size: 0.6rem;
+  }
+  .statement .format button {
+    font-size: 0.6rem;
+  }
+  .content_item{
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1.4rem;
+  } 
+}
+
+@media(max-width:584px){
+  .Reach .heading{
+    font-size: 1.7rem;
+  }
+  .Contact_us .heading{
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 575px){
+  .Contact_us .copyright{
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 559px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1.3rem;
+  }
+}
+
+@media (max-width:542px){
+  .sentence {
+    font-size: 0.5rem;
+  }
+  .statement button {
+    font-size: 0.5rem;
+  }
+  .statement .format button {
+    font-size: 0.5rem;
+  }
+  .content_item{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1.2rem;
+  }
+  .sentence {
+    font-size: 0.4rem;
+  }
+  .statement button {
+    font-size: 0.4rem;
+  }
+  .statement .format button {
+    font-size: 0.4rem;
+  }
+  .content_item{
+    font-size: 0.6rem;
+  } 
+  
+  .Reach .content .connectivity{
+    transform: scale(0.8);
+  }
+  .Reach .content .map{
+    transform: scale(0.8);
+  }
+
+  .contact_details .contact-items{
+    font-size: 0.95rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    width:25rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 3rem;
+   
+  }
+  .contact_form .input-box .input-box-message{
+    height: 10rem;
+    
+  }
+}
+
+@media(max-width:496px){
+  .Reach .heading{
+    font-size: 1.5rem;
+  }
+  .Contact_us .heading{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1.1rem;
+  }  
+  .Reach .content .connectivity{
+    transform: scale(0.7);
+  }
+  .Contact_us .copyright{
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 450px){
+  
+  .Reach .content .map{
+    height: 20rem;
+  width:25rem;
+  }
+  .contact_details .contact-items{
+    font-size: 0.9rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    width:23rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 3rem;
+   
+  }
+  .contact_form .input-box .input-box-message{
+    height: 10rem;
+    
+  }
+}
+@media (max-width: 440px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:1rem;
+  }
+}
+
+@media(max-width:437px){
+  .Reach .heading{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:0.9rem;
+  }
+  .Reach .content .map{
+    height: 18rem;
+  width:23rem;
+  }
+  /* .Reach .content .connectivity{
+    transform: scale(0.65);
+  } */
+  .contact_details .contact-items{
+    font-size: 0.85rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    width:20rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 2.5rem;
+   
+  }
+  .contact_form .input-box .input-box-message{
+    height: 8rem;
+    
+  }
+  .Contact_us .copyright{
+    font-size: 0.45rem;
+  }
+}
+
+
+@media (max-width: 382px) {
+  
+  .sentence {
+    font-size: 0.35rem;
+  }
+  .statement button {
+    font-size: 0.35rem;
+  }
+  .statement .format button {
+    font-size: 0.35rem;
+  }
+  .Contact_us .heading{
+    font-size: 1.8rem;
+  }
+  .contact_details .contact-items{
+    font-size: 0.8rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    width:20rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 2.3rem;
+   
+  }
+  .contact_form .input-box .input-box-message{
+    height: 7rem;
+    
+  }
+}
+
+@media (max-width: 360px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:0.8rem;
+  }
+  /* .Reach .content .connectivity{
+    transform: scale(0.6);
+  } */
+  .Reach .content .map{
+    height: 20rem;
+  width:22rem;
+  }
+  .Contact_us .copyright{
+    font-size: 0.4rem;
+  }
+}
+
+@media(max-width:350px){
+  .Reach .heading{
+    font-size: 1rem;
+  }
+  .contact_details .contact-items{
+    font-size: 0.75rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    width:18rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 2.2rem;
+   
+  }
+  .contact_form .input-box .input-box-message{
+    height: 6rem;
+    
+  }
+}
+@media (max-width: 340px) {
+  
+  .sentence {
+    font-size: 0.3rem;
+  }
+  .statement button {
+    font-size: 0.3rem;
+  }
+  .statement .format button {
+    font-size: 0.3rem;
+  }
+  /* .Reach .content .connectivity{
+    transform: scale(0.5);
+  } */
+
+}
+
+@media (max-width: 320px) {
+  .Placement_procedure_and_policies .heading{
+    font-size:0.7rem;
+  }
+  .Contact_us .heading{
+    font-size: 1.5rem;
+  }
+  .contact_details .contact-items{
+    font-size: 0.7rem;
+  }
+  .Contact_us .contact_content .contact_form{
+    width:18rem;
+  }
+  .contact_form .input-box .input-field {
+    height: 2rem;
+   
+  }
+  .contact_form .input-box .input-box-message{
+    height: 5rem;
+    
+  }
+  .Reach .content .map{
+    height: 18rem;
+  width:20rem;
+  }
+  .Contact_us .copyright{
+    font-size: 0.37rem;
+  }
+}
+
+@media(max-width:292px){
+  .Reach .heading{
+    font-size: 0.8rem;
+  }
+}
+
